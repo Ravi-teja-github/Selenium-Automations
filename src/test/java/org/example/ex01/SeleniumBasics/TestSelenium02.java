@@ -12,7 +12,7 @@ public class TestSelenium02 {
     @Description("Open the App.vwo.com and get the title")
     @Test
     public void test_selenium02(){
-        WebDriver de=new EdgeDriver();
+        EdgeDriver de=new EdgeDriver();
         // new EdgeDriver(); -> POST Request (localhost:65329), create session Endpoint
         // This will Start Edge real browser
         de.get("https://www.flipkart.com/");

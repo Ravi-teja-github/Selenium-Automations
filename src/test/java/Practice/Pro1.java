@@ -16,6 +16,8 @@ public class Pro1 {
        // Thread.sleep(5000);
         driver.findElement(By.xpath("(//img[@loading='eager']/ancestor::picture)[2]")).click();
 
+        driver.findElement(By.id("")).findElements(By.xpath(""));
+
         ////*[@id="product-0"]/div/div/div/a/div/img
 
     }
