@@ -1,24 +1,21 @@
-package org.example.ex09_waits;
+package org.example.ex07_waits;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
+import static org.example.ex07_waits.WaitHelpers.checkVisibilityByFluentWait;
 
-import static org.example.ex09_waits.WaitHelpers.checkVisibilityByFluentWait;
-import static org.example.ex09_waits.WaitHelpers.checkVisibilityOfAndTextToBePresentInElement;
+public class TestSelenium28_FluentWait_usingUtilities {
 
-public class TestSelenium27_ExplicitWait_usingUtilities {
+
     @Description("Verify that with invalid email, pass, error message is shown on the app.vwo.com")
     @Test
     public void testVwoLoginNegative() {
-
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.navigate().to("https://app.vwo.com");
@@ -36,20 +33,24 @@ public class TestSelenium27_ExplicitWait_usingUtilities {
         WebElement buttonSubmit = driver.findElement(By.id("js-login-btn"));
         buttonSubmit.click();
 
+        // Fluent_wait condition
+        //        FluentWait<WebDriver> wait =new FluentWait<>(driver)
+        //                .withTimeout(Duration.ofSeconds(10))
+        //                        .pollingEvery(Duration.ofSeconds(2)).ignoring(NoSuchElementException.class);
+        //
+        //        WebElement error_message = wait.until(new Function<WebDriver, WebElement>() {
+        //            public WebElement apply(WebDriver driver) {
+        //                return driver.findElement(By.className("notification-box-description"));
+        //            }
+        //        });
 
-        WebElement error_message = driver.findElement(By.className("notification-box-description"));
+        // or
 
-//        WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(3));
-//        wait.until(ExceptionConditions.visibilityOf(error_message));
-//        wait.until(ExceptionConditions.textToBePresentInElement(error_message, "Your email, password, IP address or location did not match"));
-//         or
-
-        checkVisibilityOfAndTextToBePresentInElement(driver, error_message);
+        WebElement error_message = checkVisibilityByFluentWait(driver,By.className("notification-box-description"));
 
         Assert.assertEquals(error_message.getText(),"Your email, password, IP address or location did not match");
 
         driver.quit();
-
 
     }
 }

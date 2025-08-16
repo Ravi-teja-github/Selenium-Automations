@@ -1,4 +1,4 @@
-package org.example.ex09_waits;
+package org.example.ex07_waits;
 
 import com.google.common.base.Function;
 import org.openqa.selenium.By;
