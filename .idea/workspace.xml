@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6c2c437-f69a-4ba1-85c7-da5c94f2e41a" name="Changes" comment="selenium 16/08/2025">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Practice/test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/Hello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium40_actionp1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium41_actionp2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium42_actionp3_method1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium42_actionp3_method2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium42_actionp3_method3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium43_actionp3_windowHandles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium44_actionp4_IframHandles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium45_actionp5_IframHandles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium46_actionp5_upload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium47_actionp5_dragANDdrop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium48_actionp5_relative_Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium49_actionp5_relative_Locators_with_table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium50_actionp5_relative_Locators3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex09_SVGElemnts_shadowD0m/TestSelenium36_JS_demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex09_SVGElemnts_shadowD0m/TestSelenium36_JS_demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex10_Webtable/TestSelenium19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex10_Webtable/TestSelenium37.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex10_Webtable/TestSelenium20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex10_Webtable/TestSelenium38.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex10_Webtable/TestSelenium21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex10_Webtable/TestSelenium39_dynamicTable.java" afterDir="false" />
-    </list>
+    <list default="true" id="b6c2c437-f69a-4ba1-85c7-da5c94f2e41a" name="Changes" comment="selenium 11/09/2025" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -309,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755323535205</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="selenium 11/09/2025">
+      <option name="closed" value="true" />
+      <created>1757553033976</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757553033976</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -317,6 +303,7 @@
     <MESSAGE value="selenium 05/04/2025" />
     <MESSAGE value="selenium 19/07/2025" />
     <MESSAGE value="selenium 16/08/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="selenium 16/08/2025" />
+    <MESSAGE value="selenium 11/09/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium 11/09/2025" />
   </component>
 </project>
