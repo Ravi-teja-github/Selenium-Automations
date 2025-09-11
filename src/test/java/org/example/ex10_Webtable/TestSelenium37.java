@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class TestSelenium19 {
+public class TestSelenium37 {
     @Description("Web Table")
     @Test
     public void Print_the_Web_Table_details() throws InterruptedException {
@@ -30,6 +30,9 @@ driver.get("https://awesomeqa.com/webtable.html");
 
         int row = driver.findElements(By.xpath("//table[@id=\"customers\"]/tbody/tr")).size();
         int col = driver.findElements(By.xpath("//table[@id=\"customers\"]/tbody/tr[2]/td")).size();
+
+        System.out.println(row);
+        System.out.println(col);
 
         for (int i=2;i<=row;i++){
             //System.out.println("____________");

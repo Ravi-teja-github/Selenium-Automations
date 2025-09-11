@@ -12,6 +12,7 @@ public class TestSelenium36_JS_demo {
 
     @BeforeTest
     public void openBrowser(){
+
         driver = new ChromeDriver();
     }
 

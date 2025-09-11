@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class TestSelenium21 {
+public class TestSelenium38 {
     @Description("Dynamic Web Table")
     @Test
     public void Print_the_Web_Table_details() throws InterruptedException {
