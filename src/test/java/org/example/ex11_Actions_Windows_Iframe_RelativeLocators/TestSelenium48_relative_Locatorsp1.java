@@ -1,20 +1,17 @@
-package org.example.ex11_Actions_Windows_Iframe;
+package org.example.ex11_Actions_Windows_Iframe_RelativeLocators;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import javax.swing.plaf.TableHeaderUI;
-
 import static org.openqa.selenium.support.locators.RelativeLocator.*;
 
 
-public class TestSelenium48_actionp5_relative_Locators {
+public class TestSelenium48_relative_Locatorsp1 {
     ChromeDriver driver;
 
     @BeforeTest

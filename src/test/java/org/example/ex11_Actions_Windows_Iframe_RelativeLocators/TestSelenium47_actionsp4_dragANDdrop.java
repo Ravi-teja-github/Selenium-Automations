@@ -1,8 +1,7 @@
-package org.example.ex11_Actions_Windows_Iframe;
+package org.example.ex11_Actions_Windows_Iframe_RelativeLocators;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -10,7 +9,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TestSelenium46_actionp5_upload {
+public class TestSelenium47_actionsp4_dragANDdrop {
     ChromeDriver driver;
 
     @BeforeTest
@@ -19,21 +18,24 @@ public class TestSelenium46_actionp5_upload {
     }
 
 
-    @Description("upload file")
+    @Description("Drag and drop")
     @Test
     public void test3_actionsIframe_windows() throws InterruptedException {
         driver.manage().window().maximize();
-        String url= "https://awesomeqa.com/selenium/upload.html";
+        String url= "https://the-internet.herokuapp.com/drag_and_drop";
         driver.get(url);
+
+
+        Actions actions= new Actions(driver);
+
+        WebElement from= driver.findElement(By.id("column-a"));
+        WebElement to= driver.findElement(By.id("column-b"));
+
+        //actions.dragAndDrop(from, to).build().perform();
+
+        actions.clickAndHold().moveToElement(to).release(to).build().perform();
+
         Thread.sleep(5000);
-
-        WebElement uploadFile= driver.findElement(By.id("fileToUpload"));
-
-        String dir = System.getProperty("user.dir");
-        System.out.println(dir);
-        //C:\Users\aipl1\IdeaProjects\Selenium-Automations/src/test/java/org/example/ex11_Actions_Windows_Iframe/Hello.txt
-        uploadFile.sendKeys(dir+"/src/test/java/org/example/ex11_Actions_Windows_Iframe/Hello.txt");
-        driver.findElement(By.name("submit")).click();
 
 
     }

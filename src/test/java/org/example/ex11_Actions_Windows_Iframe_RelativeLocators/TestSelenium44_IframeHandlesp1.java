@@ -1,4 +1,4 @@
-package org.example.ex11_Actions_Windows_Iframe;
+package org.example.ex11_Actions_Windows_Iframe_RelativeLocators;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
@@ -9,10 +9,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.util.List;
 import java.util.Set;
 
-public class TestSelenium44_actionp4_IframHandles {
+public class TestSelenium44_IframeHandlesp1 {
     ChromeDriver driver;
 
     @BeforeTest

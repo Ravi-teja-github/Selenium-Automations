@@ -1,6 +1,5 @@
-package org.example.ex11_Actions_Windows_Iframe;
+package org.example.ex11_Actions_Windows_Iframe_RelativeLocators;
 
-import com.beust.ah.A;
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -10,37 +9,30 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TestSelenium47_actionp5_dragANDdrop {
+public class TestSelenium41_actionp2 {
     ChromeDriver driver;
 
     @BeforeTest
-    public void openBrowser() {
+    public void openBrowser(){
         driver = new ChromeDriver();
     }
 
 
-    @Description("Drag and drop")
+    @Description("Verify actions")
     @Test
-    public void test3_actionsIframe_windows() throws InterruptedException {
+    public void test2_actions() throws InterruptedException {
         driver.manage().window().maximize();
-        String url= "https://the-internet.herokuapp.com/drag_and_drop";
+        String  url= "https://www.spicejet.com/";
         driver.get(url);
 
 
+        WebElement source=driver.findElement(By.xpath("(//input[@data-focusable=\"true\"])[1]"));
         Actions actions= new Actions(driver);
-
-        WebElement from= driver.findElement(By.id("column-a"));
-        WebElement to= driver.findElement(By.id("column-b"));
-
-        //actions.dragAndDrop(from, to).build().perform();
-
-        actions.clickAndHold().moveToElement(to).release(to).build().perform();
-
-        Thread.sleep(5000);
+        //actions.sendKeys(source,"BLR").build().perform();
+        actions.moveToElement(source).click().sendKeys("BLR").build().perform(); // this is the pretty safe method
 
 
     }
-
 
 
     @AfterTest
@@ -51,6 +43,7 @@ public class TestSelenium47_actionp5_dragANDdrop {
             throw new RuntimeException(e);
         }
         driver.quit();
-
     }
+
+
 }

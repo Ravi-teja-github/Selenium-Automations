@@ -1,8 +1,7 @@
-package org.example.ex11_Actions_Windows_Iframe;
+package org.example.ex11_Actions_Windows_Iframe_RelativeLocators;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -13,8 +12,9 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
+import java.util.List;
 
-public class TestSelenium42_actionp3_method3 {
+public class TestSelenium42_actionp3_method2 {
     ChromeDriver driver;
 
     @BeforeTest
@@ -39,11 +39,6 @@ public class TestSelenium42_actionp3_method3 {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@data-cy=\"travel-card-close\"]")));
         driver.findElement(By.xpath("//span[@data-cy=\"travel-card-close\"]")).click();
 
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
 
         WebElement fromCity= driver.findElement(By.id("fromCity"));
 
@@ -54,7 +49,9 @@ public class TestSelenium42_actionp3_method3 {
         }
 
         Actions actions=  new Actions(driver);
-        actions.moveToElement(fromCity).click().sendKeys("Del").perform();
+        actions.moveToElement(fromCity).click().perform();
+
+        List<WebElement> list_of_cities = driver.findElements(By.xpath("//ul[@class=\"react-autosuggest__suggestions-list\"]"));
 
         try {
             Thread.sleep(3000);
@@ -62,23 +59,29 @@ public class TestSelenium42_actionp3_method3 {
             throw new RuntimeException(e);
         }
 
-        actions.moveToElement(fromCity).keyDown(Keys.ARROW_DOWN).keyDown(Keys.ENTER);
+        for (WebElement e: list_of_cities){
 
+            System.out.println(e.getText());
 
+            if (e.getText().contains("Bengaluru, India")){
+                e.click();
+                break;
+            }
+        }
 
 
     }
 
-//    @AfterTest
-//    public void closeBrowser() {
-//        try {
-//            Thread.sleep(3000);
-//        } catch (InterruptedException e) {
-//            throw new RuntimeException(e);
-//        }
-//        driver.quit();
-//
-//    }
+    @AfterTest
+    public void closeBrowser() {
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        driver.quit();
+
+    }
 
 
 }

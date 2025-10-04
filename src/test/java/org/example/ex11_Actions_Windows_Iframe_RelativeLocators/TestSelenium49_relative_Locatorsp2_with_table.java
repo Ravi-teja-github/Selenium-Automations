@@ -1,4 +1,4 @@
-package org.example.ex11_Actions_Windows_Iframe;
+package org.example.ex11_Actions_Windows_Iframe_RelativeLocators;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
@@ -15,7 +15,7 @@ import java.util.List;
 import static org.openqa.selenium.support.locators.RelativeLocator.with;
 
 
-public class TestSelenium49_actionp5_relative_Locators_with_table {
+public class TestSelenium49_relative_Locatorsp2_with_table {
     ChromeDriver driver;
 
     @BeforeTest

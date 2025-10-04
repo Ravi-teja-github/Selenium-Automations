@@ -1,4 +1,4 @@
-package org.example.ex11_Actions_Windows_Iframe;
+package org.example.ex11_Actions_Windows_Iframe_RelativeLocators;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
@@ -12,9 +12,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-import java.util.List;
 
-public class TestSelenium42_actionp3_method2 {
+public class TestSelenium42_actionp3_method1 {
     ChromeDriver driver;
 
     @BeforeTest
@@ -49,24 +48,12 @@ public class TestSelenium42_actionp3_method2 {
         }
 
         Actions actions=  new Actions(driver);
-        actions.moveToElement(fromCity).click().perform();
-
-        List<WebElement> list_of_cities = driver.findElements(By.xpath("//ul[@class=\"react-autosuggest__suggestions-list\"]"));
+        actions.moveToElement(fromCity).click().sendKeys("Del").perform();
 
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
-        }
-
-        for (WebElement e: list_of_cities){
-
-            System.out.println(e.getText());
-
-            if (e.getText().contains("Bengaluru, India")){
-                e.click();
-                break;
-            }
         }
 
 

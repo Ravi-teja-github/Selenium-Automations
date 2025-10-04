@@ -1,22 +1,16 @@
-package org.example.ex11_Actions_Windows_Iframe;
+package org.example.ex11_Actions_Windows_Iframe_RelativeLocators;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
-
-public class TestSelenium41_actionp2 {
+public class TestSelenium40_actionp1 {
     ChromeDriver driver;
 
     @BeforeTest
@@ -25,21 +19,22 @@ public class TestSelenium41_actionp2 {
     }
 
 
-    @Description("Verify actions")
+    @Description("Verify actions by click on shift key")
     @Test
-    public void test2_actions() throws InterruptedException {
+    public void test1_actions() {
         driver.manage().window().maximize();
-        String  url= "https://www.spicejet.com/";
+        String  url= "https://awesomeqa.com/practice.html";
         driver.get(url);
 
+        WebElement firstname= driver.findElement(By.name("firstname"));
+        // Keyboards - > keyDown -> Shift -> send key -> key Up
 
-        WebElement source=driver.findElement(By.xpath("(//input[@data-focusable=\"true\"])[1]"));
         Actions actions= new Actions(driver);
-        //actions.sendKeys(source,"BLR").build().perform();
-        actions.moveToElement(source).click().sendKeys("BLR").build().perform(); // this is the pretty safe method
-
+        actions.keyDown(Keys.SHIFT).sendKeys(firstname, "ravi teja k")
+                .keyUp(Keys.SHIFT).build().perform();
 
     }
+
 
 
     @AfterTest

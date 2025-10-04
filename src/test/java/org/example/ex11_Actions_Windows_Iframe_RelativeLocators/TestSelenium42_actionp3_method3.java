@@ -1,20 +1,19 @@
-package org.example.ex11_Actions_Windows_Iframe;
+package org.example.ex11_Actions_Windows_Iframe_RelativeLocators;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-import java.util.List;
 
-public class TestSelenium42_actionp3_method1 {
+public class TestSelenium42_actionp3_method3 {
     ChromeDriver driver;
 
     @BeforeTest
@@ -39,6 +38,11 @@ public class TestSelenium42_actionp3_method1 {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@data-cy=\"travel-card-close\"]")));
         driver.findElement(By.xpath("//span[@data-cy=\"travel-card-close\"]")).click();
 
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
 
         WebElement fromCity= driver.findElement(By.id("fromCity"));
 
@@ -57,19 +61,23 @@ public class TestSelenium42_actionp3_method1 {
             throw new RuntimeException(e);
         }
 
+        actions.moveToElement(fromCity).keyDown(Keys.ARROW_DOWN).keyDown(Keys.ENTER);
+
+
+
 
     }
 
-    @AfterTest
-    public void closeBrowser() {
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-        driver.quit();
-
-    }
+//    @AfterTest
+//    public void closeBrowser() {
+//        try {
+//            Thread.sleep(3000);
+//        } catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
+//        driver.quit();
+//
+//    }
 
 
 }

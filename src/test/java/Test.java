@@ -18,6 +18,7 @@ public class Test {
        // driver.findElement(By.name("q")).sendKeys("Macmini");
 
         driver.get("https://www.amcharts.com/svg-maps/?map=india");
+
         driver.findElement(By.xpath("//button[contains(text(), 'understand ')]")).click();
 
         driver.findElement(By.xpath("//*[local-name()='svg']//*[local-name()='g'][7]//*[local-name()='g']/*[local-name()='g'][1]/*[local-name()='path'][20]")).click();

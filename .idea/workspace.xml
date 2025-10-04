@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6c2c437-f69a-4ba1-85c7-da5c94f2e41a" name="Changes" comment="selenium 11/09/2025" />
+    <list default="true" id="b6c2c437-f69a-4ba1-85c7-da5c94f2e41a" name="Changes" comment="selenium 11/09/2025">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Basic_testCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/imp_driver_actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex12_ActionsClass_By9xbatch/TestSelenium_actionsPro_spicejet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex12_ActionsClass_By9xbatch/TestSelenium_actionsp1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/Hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe_RelativeLocators/Hello.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium40_actionp1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe_RelativeLocators/TestSelenium40_actionp1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium41_actionp2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe_RelativeLocators/TestSelenium41_actionp2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium42_actionp3_method1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe_RelativeLocators/TestSelenium42_actionp3_method1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium42_actionp3_method2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe_RelativeLocators/TestSelenium42_actionp3_method2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium42_actionp3_method3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe_RelativeLocators/TestSelenium42_actionp3_method3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium43_actionp3_windowHandles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe_RelativeLocators/TestSelenium43_windowHandles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium44_actionp4_IframHandles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe_RelativeLocators/TestSelenium44_IframeHandlesp1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium45_actionp5_IframHandles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe_RelativeLocators/TestSelenium45_IframeHandlesp2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium46_actionp5_upload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe_RelativeLocators/TestSelenium46_upload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium47_actionp5_dragANDdrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe_RelativeLocators/TestSelenium47_actionsp4_dragANDdrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium48_actionp5_relative_Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe_RelativeLocators/TestSelenium48_relative_Locatorsp1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium49_actionp5_relative_Locators_with_table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe_RelativeLocators/TestSelenium49_relative_Locatorsp2_with_table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe/TestSelenium50_actionp5_relative_Locators3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex11_Actions_Windows_Iframe_RelativeLocators/TestSelenium50_relative_Locatorsp3.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,103 +68,108 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Ex01.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TestSelenium01.executor": "Run",
-    "Application.Testselenium29_Inputbox_Checkbox_RadioBox.executor": "Run",
-    "Application.Testselenium30_Select_static.executor": "Run",
-    "Application.Testselenium31_JavaScript_alerts.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "OverrideImplement.generate.javadoc": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.C:/Users/aipl1/IdeaProjects/Selenium-Automations/testng.xml.executor": "Run",
-    "TestNG.Pro1.Flipkart.executor": "Debug",
-    "TestNG.Pro1.executor": "Run",
-    "TestNG.TestSelenium01.executor": "Run",
-    "TestNG.TestSelenium01.test_selenium01.executor": "Run",
-    "TestNG.TestSelenium02.executor": "Run",
-    "TestNG.TestSelenium02.test_selenium01.executor": "Run",
-    "TestNG.TestSelenium02.test_selenium02.executor": "Run",
-    "TestNG.TestSelenium07.executor": "Run",
-    "TestNG.TestSelenium08.executor": "Run",
-    "TestNG.TestSelenium09.executor": "Run",
-    "TestNG.TestSelenium10_Navigate_comments.test_selenium10.executor": "Run",
-    "TestNG.TestSelenium11_Close_Quit_comments.test_selenium11.executor": "Run",
-    "TestNG.TestSelenium12.executor": "Run",
-    "TestNG.TestSelenium12.test_selenium13.executor": "Run",
-    "TestNG.TestSelenium13_Add_exetension.executor": "Run",
-    "TestNG.TestSelenium14_Youtube.executor": "Run",
-    "TestNG.TestSelenium14_Youtube.test_selenium13.executor": "Run",
-    "TestNG.TestSelenium15.executor": "Run",
-    "TestNG.TestSelenium16.executor": "Run",
-    "TestNG.TestSelenium17.executor": "Run",
-    "TestNG.TestSelenium19.executor": "Run",
-    "TestNG.TestSelenium20.executor": "Run",
-    "TestNG.TestSelenium21.executor": "Run",
-    "TestNG.TestSelenium23.executor": "Run",
-    "TestNG.TestSelenium23_ImplicitWait.executor": "Run",
-    "TestNG.TestSelenium24.executor": "Run",
-    "TestNG.TestSelenium24_ExplicitWait.executor": "Run",
-    "TestNG.TestSelenium25.executor": "Run",
-    "TestNG.TestSelenium25.testMakeMyTrip.executor": "Run",
-    "TestNG.TestSelenium26.executor": "Run",
-    "TestNG.TestSelenium26.testVwoLoginNegative.executor": "Run",
-    "TestNG.TestSelenium26_FluentWait.executor": "Run",
-    "TestNG.TestSelenium27_ExplicitWait_usingUtilities.executor": "Run",
-    "TestNG.TestSelenium28_FlientWait_usingUtilities.executor": "Run",
-    "TestNG.TestSelenium28_FluentWait_usingUtilities.executor": "Run",
-    "TestNG.TestSelenium35_JS_demo.executor": "Run",
-    "TestNG.TestSelenium35_JS_demo.test_shadowDom (1).executor": "Debug",
-    "TestNG.TestSelenium35_JS_demo.test_shadowDom.executor": "Run",
-    "TestNG.TestSelenium36_JS_demo.executor": "Run",
-    "TestNG.TestSelenium37.executor": "Run",
-    "TestNG.TestSelenium39.executor": "Run",
-    "TestNG.TestSelenium39_dynamicTable.executor": "Run",
-    "TestNG.TestSelenium40.executor": "Run",
-    "TestNG.TestSelenium41_actionp2.executor": "Run",
-    "TestNG.TestSelenium42_actionp3.executor": "Run",
-    "TestNG.TestSelenium42_actionp3_method1.executor": "Run",
-    "TestNG.TestSelenium42_actionp3_method2.executor": "Run",
-    "TestNG.TestSelenium42_actionp3_method3.executor": "Run",
-    "TestNG.TestSelenium43_actionp3_windowHandles.executor": "Run",
-    "TestNG.TestSelenium44_actionp4_IframHandles.executor": "Run",
-    "TestNG.TestSelenium45_actionp5_IframHandles.executor": "Run",
-    "TestNG.TestSelenium46_actionp5_upload.executor": "Run",
-    "TestNG.TestSelenium47_actionp5_dragANDdrop.executor": "Run",
-    "TestNG.TestSelenium48_actionp5_relative_Locators.executor": "Run",
-    "TestNG.TestSelenium48_actionp5_relative_Locators.test3_actionsIframe_windows (1).executor": "Debug",
-    "TestNG.TestSelenium48_actionp5_relative_Locators.test3_actionsIframe_windows.executor": "Run",
-    "TestNG.TestSelenium49_actionp5_relative_Locators_with_table.executor": "Run",
-    "TestNG.TestSelenium50_actionp5_relative_Locators3.executor": "Run",
-    "TestNG.TestSelenium_tableDynamic.executor": "Run",
-    "TestNG.Testselenium32_SVG_p1.executor": "Run",
-    "TestNG.Testselenium32_SVG_p1.test_flipkart_search.executor": "Run",
-    "TestNG.Testselenium33_SVG_p2.executor": "Run",
-    "TestNG.Testselenium34_shadowDom_p1.executor": "Run",
-    "TestNG.test2.executor": "Run",
-    "TestNG.test_table.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/aipl1/IdeaProjects/Java_Classes",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Ex01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSelenium01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testselenium29_Inputbox_Checkbox_RadioBox.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testselenium30_Select_static.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testselenium31_JavaScript_alerts.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.Basic_testCase.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/aipl1/IdeaProjects/Selenium-Automations/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Pro1.Flipkart.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.Pro1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium01.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium01.test_selenium01.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium02.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium02.test_selenium01.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium02.test_selenium02.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium07.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium08.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium09.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium10_Navigate_comments.test_selenium10.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium11_Close_Quit_comments.test_selenium11.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium12.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium12.test_selenium13.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium13_Add_exetension.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium14_Youtube.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium14_Youtube.test_selenium13.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium15.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium16.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium17.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium19.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium20.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium21.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium23.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium23_ImplicitWait.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium24.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium24_ExplicitWait.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium25.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium25.testMakeMyTrip.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium26.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium26.testVwoLoginNegative.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium26_FluentWait.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium27_ExplicitWait_usingUtilities.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium28_FlientWait_usingUtilities.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium28_FluentWait_usingUtilities.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium35_JS_demo.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium35_JS_demo.test_shadowDom (1).executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.TestSelenium35_JS_demo.test_shadowDom.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium36_JS_demo.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium37.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium39.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium39_dynamicTable.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium40.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium41_actionp2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium42_actionp3.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium42_actionp3_method1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium42_actionp3_method2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium42_actionp3_method3.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium43_actionp3_windowHandles.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium44_actionp4_IframHandles.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium45_actionp5_IframHandles.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium46_actionp5_upload.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium47_actionp5_dragANDdrop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium48_actionp5_relative_Locators.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium48_actionp5_relative_Locators.test3_actionsIframe_windows (1).executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.TestSelenium48_actionp5_relative_Locators.test3_actionsIframe_windows.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium49_actionp5_relative_Locators_with_table.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium50_actionp5_relative_Locators3.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium_actionsPro_spicejet.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium_actionsPro_spicejet.test_actions.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.TestSelenium_actionsp1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSelenium_tableDynamic.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testselenium32_SVG_p1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testselenium32_SVG_p1.test_flipkart_search.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testselenium33_SVG_p2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testselenium34_shadowDom_p1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.imp_driver_actions.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.test2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.test_table.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aipl1/IdeaProjects/Java_Classes&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aipl1\IdeaProjects\Selenium-Automations" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.ex12_ActionsClass_By9xbatch" />
       <recent name="org.example.ex11_Actions_Windows_Iframe" />
       <recent name="org.example.ex10_SVGElemnts" />
       <recent name="org.example.ex09_waits" />
       <recent name="org.example.ex08_SVGElements" />
-      <recent name="org.example.ex07_Webtable" />
     </key>
   </component>
   <component name="RunManager">
@@ -159,23 +185,6 @@
       <option name="MAIN_CLASS_NAME" value="org.example.ex01.SeleniumBasics.TestSelenium01" />
       <option name="METHOD_NAME" value="test_selenium01" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSelenium02" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium-Automations" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ex01.SeleniumBasics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.ex01.SeleniumBasics" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ex01.SeleniumBasics.TestSelenium02" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -200,18 +209,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSelenium48_actionp5_relative_Locators.test3_actionsIframe_windows" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSelenium48_relative_Locatorsp1.test3_actionsIframe_windows" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-Automations" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ex11_Actions_Windows_Iframe.*" />
+          <option name="PATTERN" value="org.example.ex11_Actions_Windows_Iframe_RelativeLocators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.ex11_Actions_Windows_Iframe" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ex11_Actions_Windows_Iframe.TestSelenium48_actionp5_relative_Locators" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex11_Actions_Windows_Iframe_RelativeLocators.TestSelenium48_relative_Locatorsp1" />
       <option name="METHOD_NAME" value="test3_actionsIframe_windows" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSelenium_actionsp1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Automations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ex12_ActionsClass_By9xbatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ex12_ActionsClass_By9xbatch" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex12_ActionsClass_By9xbatch.TestSelenium_actionsp1" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -238,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSelenium48_actionp5_relative_Locators.test3_actionsIframe_windows" />
-        <item itemvalue="TestNG.TestSelenium35_JS_demo.test_shadowDom" />
         <item itemvalue="TestNG.TestSelenium01.test_selenium01" />
+        <item itemvalue="TestNG.TestSelenium_actionsp1" />
+        <item itemvalue="TestNG.TestSelenium48_relative_Locatorsp1.test3_actionsIframe_windows" />
+        <item itemvalue="TestNG.TestSelenium35_JS_demo.test_shadowDom" />
         <item itemvalue="TestNG.Testselenium32_SVG_p1.test_flipkart_search" />
-        <item itemvalue="TestNG.TestSelenium02" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +321,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757553033976</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="selenium 11/09/2025">
+      <option name="closed" value="true" />
+      <created>1757553173953</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757553173953</updated>
+    </task>
+    <task id="LOCAL-00007" summary="selenium 11/09/2025">
+      <option name="closed" value="true" />
+      <created>1757553181016</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1757553181016</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
